@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Genie</title>
+  <!-- css -->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- responsive -->
+  <link rel="stylesheet" href="css/respovsive.css">
+  <!-- slick -->
+  <link rel="stylesheet" href="js/slick/slick-theme.css">
+  <link rel="stylesheet" href="js/slick/slick.css">
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <div class="wrap">
+    <header>
+      <!-- modal -->
+      <div class="modal_back"></div>
+      <div class="modal_back2"></div>
+      <div class="modal">
+        <div class="modal_logo">
+          <img src="image/main_logo2.png" alt="로고">
+          <i class="fa fa-times-circle" aria-hidden="true"></i>
+        </div>
+        <div class="modal_menu">
+          <div class="modal_li">
+            <ul class="modal_ul">
+              <li><a href="#none">지니차트</a>
+                <ul>
+                  <li>TOP200</li>
+                  <li>장르별 차트</li>
+                  <li>시대별 차트</li>
+                  <li>뮤직비디오 차트</li>
+                </ul>
+              </li>
+              <li><a href="#none">최신음악</a>
+                <ul>
+                  <li>최신 곡</li>
+                  <li>최신 앨범</li>
+                </ul>
+              </li>
+              <li><a href="#none">장르음악</a>
+                <ul>
+                  <li>가요</li>
+                  <li>POP</li>
+                  <li>OST</li>
+                  <li>EDM</li>
+                  <li>JAZZ</li>
+                  <li>CLASSIC</li>
+                  <li>JPOP</li>
+                </ul>
+              </li>
+              <li><a href="#none">지니TV</a>
+                <ul>
+                  <li>홈</li>
+                  <li>Mnet방송</li>
+                  <li>뮤직비디오</li>
+                  <li>뮤지션</li>
+                </ul>
+              </li>
+              <li><a href="#none">추천</a>
+                <ul>
+                  <li>추천</li>
+                  <li>인기</li>
+                  <li>태그</li>
+                </ul>
+              </li>
+              <li><a href="subpage/sub.html">매거진</a>
+                <ul>
+                  <li>클래식공감</li>
+                  <li>스폐셜</li>
+                  <li>지니뮤직 챌린지</li>
+                  <li>방송</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="img_box">
+            <img src="image/billie.jpg" alt="앨범">
+          </div>
+        </div>
+      </div>
+      <!-- modal2 -->
+      <div class="modal2">
+        <div class="modal2_close">
+        <i class="fa fa-window-close" aria-hidden="true"></i>
+        </div>
+        <hr>
+        <ul>
+          <li><a href="#none">웹플레이어</a></li>
+          <li><a href="#none">pc플레이어</a></li>
+          <li><a href="#none">지니앱</a></li>
+        </ul>
+        <button>로그인</button>
+      </div>
+      <!-- nav -->
+      <nav class="grid">
+        <a href="#none"><img src="image/main_logo.png" alt="로고" class="modal_open modal_open2"></a>
+        <ul>
+          <li><a href="index.html" class="home"><i class="fa fa-music " aria-hidden="true"></i></a></li>
+          <li class="sub_open"><a href="#none">지니차트</a>
+            <ul class="submenu">
+              <li><a href="#none">TOP200</a></li>
+              <li><a href="#none">장르별 차트</a></li>
+              <li><a href="#none">시대별 차트</a></li>
+              <li><a href="#none">뮤직비디오 차트</a></li>
+            </ul>
+          </li>
+          <li><a href="#none">최신음악</a></li>
+          <li><a href="#none">장르음악</a></li>
+          <li><a href="#none">지니TV</a></li>
+          <li><a href="#none">추천</a></li>
+          <li><a href="subpage/sub.html">매거진</a></li>
+          <li><a href="#none">뮤직허그</a></li>
+        </ul>
+        <div class="login">
+          <i class="fa fa-globe" aria-hidden="true"></i>
+          <input type="text" placeholder="검색">
+          <span><a href="#none">로그인</a></span>
+          <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- main -->
+    <main class="grid">
+      <h1>실시간차트</h1>
+      <div class="first grid">
+        <div class="first_song grid">
+          <div class="album_cover">
+            <h2>1</h2>
+            <img src="image/weeknd_album.jpg" alt="앨범">
+          </div>
+          <div class="singer">
+            <p>The hills</p>
+            <hr>
+            <p>The weeknd</p>
+          </div>
+          <p>실시간</p>
+          <p class="js_time">2022.09.07 12:00</p>
+        </div>
+        <div class="first_video">
+           <iframe width="560" height="315" src="https://www.youtube.com/embed/ajUuHFN1EFc" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
+      </div>
+      <!-- rangking -->
+      <div class="ranking grid">
+        <h2><a href="#none">TOP200 ></a></h2>
+        <div class="ranking_box grid">
+          <h3>2</h3>
+          <img src="image/ariana_album.png" alt="앨범커버">
+          <p>Best mistake</p>
+          <p>Ariana grande</p>
+          <a href="#none"><i class="fa fa-play" aria-hidden="true"></i>
+          </a>
+          <a href="#none"><i class="fa fa-plus" aria-hidden="true"></i>
+          </a>
+        </div>
+        <div class="ranking_box grid">
+          <h3>3</h3>
+          <img src="image/weeknd_album2.png" alt="앨범커버">
+          <p>Heartless</p>
+          <p>The weeknd</p>
+          <a href="#none"><i class="fa fa-play" aria-hidden="true"></i>
+          </a>
+          <a href="#none"><i class="fa fa-plus" aria-hidden="true"></i>
+          </a>
+        </div>
+        <div class="ranking_box grid">
+          <h3>4</h3>
+          <img src="image/travis_album.png" alt="앨범커버">
+          <p>SICKO MODE</p>
+          <p>Travis scott</p>
+          <a href="#none"><i class="fa fa-play" aria-hidden="true"></i>
+          </a>
+          <a href="#none"><i class="fa fa-plus" aria-hidden="true"></i>
+          </a>
+        </div>
+        <div class="ranking_box grid">
+          <h3>5</h3>
+          <img src="image/tyler_album.jpg" alt="앨범커버">
+          <p>Earthquake</p>
+          <p>tyler, the creator</p>
+          <a href="#none"><i class="fa fa-play" aria-hidden="true"></i>
+          </a>
+          <a href="#none"><i class="fa fa-plus" aria-hidden="true"></i>
+          </a>
+        </div>
+        <div class="ranking_box grid">
+          <h3>6</h3>
+          <img src="image/adele_album.png" alt="앨범커버">
+          <p>Easy on Me</p>
+          <p>Adele</p>
+          <a href="#none"><i class="fa fa-play" aria-hidden="true"></i>
+          </a>
+          <a href="#none"><i class="fa fa-plus" aria-hidden="true"></i>
+          </a>
+        </div>
+        <div class="ranking_box grid">
+          <h3>7</h3>
+          <img src="image/pilot.jpg" alt="앨범커버">
+          <p>나 어디가(feat.함유진)</p>
+          <p>0pilot</p>
+          <a href="#none"><i class="fa fa-play" aria-hidden="true"></i>
+          </a>
+          <a href="#none"><i class="fa fa-plus" aria-hidden="true"></i>
+          </a>
+        </div>
+        <div class="ranking_box grid">
+          <h3>8</h3>
+          <img src="image/xxx_album.png" alt="앨범커버">
+          <p>Moonlight</p>
+          <p>XXXtextacion</p>
+          <a href="#none"><i class="fa fa-play" aria-hidden="true"></i>
+          </a>
+          <a href="#none"><i class="fa fa-plus" aria-hidden="true"></i>
+          </a>
+        </div>
+        <div class="ranking_box grid">
+          <h3>9</h3>
+          <img src="image/charlie_album.png" alt="앨범커버">
+          <p>Attention</p>
+          <p>Charlie puth</p>
+          <a href="#none"><i class="fa fa-play" aria-hidden="true"></i>
+          </a>
+          <a href="#none"><i class="fa fa-plus" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+    </main>
+    <!-- section -->
+    <div class="sec_back">
+      <section class="grid">
+        <h1>최신음악</h1>
+        <button>VIEW ALL</button>
+        <div class="tab_but">
+          <div class="js_tab">
+          <button class="active">국내</button>
+          <button>국외</button>
+          </div>
+          <select class="sel_button">
+            <option selected="selected" value="one">국내</option>
+            <option value="two">국외</option>
+          </select>
+        </div>
+        <div class="tab_cont grid">
+          <div class="tab_item center">
+            <div class="tab_text respon_text">
+              <p>Twice</p>
+              <p>Album</p>
+              <button>VIEW</button>
+            </div>
+            <div class="img_radius">
+              <img src="image/twice.jpg" alt="이미지">
+            </div>
+          </div>
+          <div class="right grid">
+            <div class="tab_item2">
+              <div class="tab_text">
+                <p>New jeans</p>
+                <p>Attention</p>
+              </div>
+              <img src="image/newjeans.jpg" alt="이미지">
+            </div>
+            <div class="tab_item2">
+              <div class="tab_text">
+                <p>Ive</p>
+                <p>After LIKE</p>
+              </div>
+              <img src="image/ive.jpg" alt="이미지">
+            </div>
+            <div class="tab_item2">
+              <div class="tab_text">
+                <p>Girls generation</p>
+                <p>FOREVER 1</p>
+              </div>
+              <img src="image/snsd.jpg" alt="이미지">
+            </div>
+            <div class="tab_item2">
+              <div class="tab_text">
+                <p>Black pink</p>
+                <p>Pink Venom</p>
+              </div>
+              <img src="image/blackpink.jpg" alt="이미지">
+            </div>
+          </div>
+        </div>
+        <div class="tab_cont2 grid">
+          <div class="tab_item center">
+            <div class="tab_text respon_text">
+              <p>Postmalone</p>
+              <p>Album</p>
+              <button>VIEW</button>
+            </div>
+            <div class="img_radius">
+              <img src="image/post.jpg" alt="이미지">
+            </div>
+          </div>
+          <div class="right grid">
+            <div class="tab_item2">
+              <div class="tab_text">
+                <p>Imagine dragons</p>
+                <p>Thunder</p>
+              </div>
+              <img src="image/imagine.jpg" alt="이미지">
+            </div>
+            <div class="tab_item2">
+              <div class="tab_text">
+                <p>Oasis</p>
+                <p>Wonderwall</p>
+              </div>
+              <img src="image/oasis.jpg" alt="이미지">
+            </div>
+            <div class="tab_item2">
+              <div class="tab_text">
+                <p>Dua lipa</p>
+                <p>New rules</p>
+              </div>
+              <img src="image/dualipa.jpg" alt="이미지">
+            </div>
+            <div class="tab_item2">
+              <div class="tab_text">
+                <p>Justin bieber</p>
+                <p>Stay</p>
+              </div>
+              <img src="image/bieber.jpg" alt="이미지">
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- slide -->
+    <div class="slide grid">
+      <h1>HOT & NEW</h1>
+      <div class="slider">
+        <a href="#none">
+          <img src="image/eminem.jpg" alt="에미넴">
+          <div class="fontawesome">
+            <span> <i class="fa fa-instagram" aria-hidden="true"></i></span>
+            <span> <i class="fa fa-facebook-square" aria-hidden="true"></i></span>
+            <span> <i class="fa fa-twitter" aria-hidden="true"></i></span>
+          </div>
+        </a>
+        <a href="#none"><img src="image/dababy.jpg" alt="다베이비">
+          <div class="fontawesome">
+            <span> <i class="fa fa-instagram" aria-hidden="true"></i></span>
+            <span> <i class="fa fa-facebook-square" aria-hidden="true"></i></span>
+            <span> <i class="fa fa-twitter" aria-hidden="true"></i></span>
+          </div>
+        </a>
+        <a href="#none">
+          <img src="image/bibi.jpeg" alt="비비">
+          <div class="fontawesome">
+            <span> <i class="fa fa-instagram" aria-hidden="true"></i></span>
+            <span> <i class="fa fa-facebook-square" aria-hidden="true"></i></span>
+            <span> <i class="fa fa-twitter" aria-hidden="true"></i></span>
+          </div>
+        </a>
+        <a href="#none">
+          <img src="image/halsey.jpg" alt="할시">
+          <div class="fontawesome">
+            <span> <i class="fa fa-instagram" aria-hidden="true"></i></span>
+            <span> <i class="fa fa-facebook-square" aria-hidden="true"></i></span>
+            <span> <i class="fa fa-twitter" aria-hidden="true"></i></span>
+          </div>
+        </a>
+        <a href="#none">
+          <img src="image/dojacat.jpeg" alt="도자캣">
+          <div class="fontawesome">
+            <span> <i class="fa fa-instagram" aria-hidden="true"></i></span>
+            <span> <i class="fa fa-facebook-square" aria-hidden="true"></i></span>
+            <span> <i class="fa fa-twitter" aria-hidden="true"></i></span>
+          </div>
+        </a>
+        <a href="#none">
+          <img src="image/harry.jpg" alt="해리스타일스">
+          <div class="fontawesome">
+            <span> <i class="fa fa-instagram" aria-hidden="true"></i></span>
+            <span> <i class="fa fa-facebook-square" aria-hidden="true"></i></span>
+            <span> <i class="fa fa-twitter" aria-hidden="true"></i></span>
+          </div>
+        </a>
+      </div>
+    </div>
+    <!-- section2 -->
+    <div class="section2 grid">
+      <h1>에디터 추천</h1>
+      <div class="editor grid">
+        <div class="edit_box">
+          <div class="edit_text">
+            <h3>추천선곡</h3>
+            <p>앨범 크레딧에서 자주 만난 뮤지션들의 음악 모음.zip</p>
+          </div>
+          <div class="edit_img edit_hover">
+            <img src="image/vinyl.jpg" alt="이미지">
+            <div class="hover">
+              <p>추천선곡</p>
+              <p>Lorem ipsum dolor sit amet.</p>
+              <button>More</button>
+            </div>
+          </div>
+        </div>
+        <div class="edit_box">
+          <div class="edit_text">
+            <h3>추천선곡</h3>
+            <p>오늘의 나는 너무 멋져</p>
+          </div>
+          <div class="edit_img edit_hover">
+            <img src="image/vinyl2.jpg" alt="이미지">
+            <div class="hover">
+              <p>추천선곡</p>
+              <p>Lorem ipsum dolor sit amet.</p>
+              <button>More</button>
+            </div>
+          </div>
+        </div>
+        <div class="edit_box edit_box2">
+          <div class="edit_text">
+            <h3>클래식 공감</h3>
+            <p>감성의 계절 가을, 첼로로 특별함을 더하다</p>
+          </div>
+          <div class="edit_img edit_box2">
+            <img src="image/vinyl3.jpg" alt="이미지">
+          </div>
+        </div>
+        <div class="edit_box edit_box2">
+          <div class="edit_text">
+            <h3>추천선곡</h3>
+            <p>Cookie랑 들으려고 만든 플리</p>
+          </div>
+          <div class="edit_img">
+            <img src="image/vinyl4.jpg" alt="이미지">
+          </div>
+        </div>
+        <div class="edit_box edit_box2">
+          <div class="edit_text">
+            <h3>추천선곡</h3>
+            <p>겨울아 부탁이야 제발 늦게 와줘</p>
+          </div>
+          <div class="edit_img">
+            <img src="image/vinyl5.jpg" alt="이미지">
+          </div>
+        </div>
+        <div class="edit_box edit_box2">
+          <div class="edit_text">
+            <h3>추천선곡</h3>
+            <p>아스팔트가 식어갈 즈음, 도시 감성 외힙 플리</p>
+          </div>
+          <div class="edit_img edit_box2">
+            <img src="image/vinyl6.jpg" alt="이미지">
+          </div>
+        </div>
+        <div class="edit_box edit_box2">
+          <div class="edit_text">
+            <h3>추천선곡</h3>
+            <p>편안한 계절에 어울리는 알앤비 플레이리스트</p>
+          </div>
+          <div class="edit_img edit_box2">
+            <img src="image/vinyl7.jpg" alt="이미지">
+          </div>
+        </div>
+        <div class="edit_box edit_box2">
+          <div class="edit_text">
+            <h3>추천선곡</h3>
+            <p>시대에 뒤쳐진 음악? 전통과 가치를 수호하는 음악?</p>
+          </div>
+          <div class="edit_img edit_box2">
+            <img src="image/vinyl8.jpg" alt="이미지">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer -->
+    <div class="footer_back">
+      <footer class="grid">
+        <ul>
+          <li><a href="index.html" class="home"><i class="fa fa-music " aria-hidden="true"></i></a></li>
+          </li>
+          <li><a href="#none">회사소개</a></li>
+          <li><a href="#none">이용약관</a></li>
+          <li><a href="#none">청소년보호정책</a></li>
+          <li><a href="#none">서비스 이용문의</a></li>
+          <li><a href="#none">제휴문의</a></li>
+        </ul>
+        <div class="footer_top">
+          <p>COPYRIGHTⓒGENIE MUSIC CORP ALL RIGHTS RESERVED.</p>
+          <p><a href="#">맨 위로 올라가기</a></p>
+        </div>
+      </footer>
+    </div>
+  </div>
+</body>
+<!-- jqsrc -->
+<script src="js/jquery.js"></script>
+<!-- slick -->
+<script src="js/slick/slick.min.js"></script>
+<script src="js/custom.js"></script>
+
+</html>
